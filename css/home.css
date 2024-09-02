@@ -1,0 +1,127 @@
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.title{
+    display: flex;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--main-color);
+    padding: 30px 0px 10px 30px;
+}
+
+.products_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: var(--background-color);
+    flex: 1;
+}
+
+.product_container{
+    width: 80%;
+    height: 80%;
+}
+
+.product_container > a, .product_container > a:not(:hover) {
+    transition: all 0.4s ease;
+    color: var(--main-color);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.product_container > a:hover {
+    transition: all 0.4s ease;
+    color: var(--secondary-color);
+    text-shadow: 0 0 5px rgb(0,0,0,0.1);
+}
+
+.image_container, .image_container:not(:hover){
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.2);
+}
+
+.image_container:hover{
+    transition: all 0.4s ease;
+    box-shadow: 0 0px 15px rgb(0,0,0,0.3);
+    scale: 1.03;
+}
+
+.image_1 {
+    background-image: url('../fotos/quiru.jpeg');
+}
+
+.image_2 {
+    background-image: url('../fotos/plata.jpeg');
+}
+
+.image_3 {
+    background-image: url('../fotos/oro.jpeg');
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    padding: 20px;
+    width: 100%;
+    height: fit-content;
+    margin-top: auto;
+    color: var(--font-color);
+}
+/* Estilos para el botón del carrito */
+.cart_button {
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+    margin-left: auto; /* Alineación a la derecha */
+    margin-right: 20px; /* Espacio a la derecha */
+    display: inline-block; /* Alineación en línea */
+}
+
+/* Cambiar color de fondo al pasar el ratón */
+.cart_button:hover {
+    background-color: #0056b3;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+    .products_container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    
+}

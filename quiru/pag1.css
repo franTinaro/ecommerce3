@@ -1,0 +1,16 @@
+header{
+    background-color:chocolate;
+    padding: 2%;
+}
+li{
+    color: aliceblue;
+}
+
+a{
+    margin: 4%;
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    background-color: rgb(207, 127, 70);
+}

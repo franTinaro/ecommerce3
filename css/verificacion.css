@@ -1,0 +1,54 @@
+.confirmation {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.confirmation h1 {
+    color: #D2691E; /* Color principal */
+    margin-bottom: 20px;
+}
+
+.confirmation p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.confirmation .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #D2691E; /* Color principal */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.confirmation .button:hover {
+    background-color: #cc9974; /* Color de hover */
+}
+
+.confirmation .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #a9a9a9; /* Color para el botón de volver */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.confirmation .back-button:hover {
+    background-color: #8b8b8b; /* Color de hover para el botón de volver */
+}

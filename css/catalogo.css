@@ -1,0 +1,82 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5; /* Fondo claro */
+    color: #333; /* Color de texto oscuro para contraste */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #D2691E; /* Color de encabezado principal */
+    margin: 20px 0;
+}
+
+div {
+    background-color: #fff; /* Fondo blanco para los productos */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px;
+    margin: 20px auto; /* Centra el div y agrega margen vertical */
+    max-width: 350px; /* Ancho máximo para los productos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para elevación */
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el formulario */
+    gap: 10px; /* Espacio entre los elementos del formulario */
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 60px; /* Ancho fijo para el campo de número */
+}
+
+button {
+    background-color: #D2691E; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px; /* Tamaño del botón */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s; /* Efecto de transición */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para elevación */
+}
+
+button:hover {
+    background-color: #a65d2d; /* Color más oscuro en hover */
+    transform: scale(1.05); /* Efecto de ampliación en hover */
+}
+
+a {
+    color: #D2691E; /* Color del enlace */
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
